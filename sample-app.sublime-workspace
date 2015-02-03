@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"pa",
+				"page_title"
+			],
+			[
 				"assert",
 				"assert_select"
 			],
@@ -31,6 +35,38 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "app/views/static_pages/home.html.erb",
+			"settings":
+			{
+				"buffer_size": 152,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/helpers/application_helper.rb",
+			"settings":
+			{
+				"buffer_size": 206,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 322,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "test/controllers/static_pages_controller_test.rb",
+			"settings":
+			{
+				"buffer_size": 534,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -76,12 +112,25 @@
 	},
 	"file_history":
 	[
-		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/static_pages/untitled",
-		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/config/routes.rb",
-		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/static_pages/help.html.erb",
+		"/private/var/folders/sb/1dmxpxsx1yz0rhlpt58rj45c0000gn/T/fz3temp-1/header_inicial.inc",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/controllers/application_controller.rb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/controllers/static_pages_controller.rb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/test/controllers/static_pages_controller_test.rb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/static_pages/about.html.erb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/layouts/application.html.erb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/helpers/static_pages_helper.rb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/helpers/application_helper.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/static_pages/home.html.erb",
-		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/README.md",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/static_pages/help.html.erb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/static_pages/contact.html.erb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/Gemfile",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/Guardfile",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/config/initializers/backtrace_silencers.rb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/test/test_helper.rb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/config/routes.rb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/.gitignore",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/static_pages/untitled",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/README.md",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/hello_app/config/routes.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/hello_app/app/controllers/application_controller.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/hello_app/Gemfile"
@@ -102,6 +151,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"<% provide(:title, \"Home\") %>",
 			"end"
 		],
 		"highlight": true,
@@ -120,8 +170,115 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "app/views/static_pages/home.html.erb",
+					"settings":
+					{
+						"buffer_size": 152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/helpers/application_helper.rb",
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "test/controllers/static_pages_controller_test.rb",
+					"settings":
+					{
+						"buffer_size": 534,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								184,
+								184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
