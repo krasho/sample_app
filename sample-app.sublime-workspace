@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ase",
+				"assert_select"
+			],
+			[
 				"ass",
 				"assert_select"
 			],
@@ -44,69 +48,10 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/layouts/application.html.erb",
+			"file": "test/helpers/application_helper_test.rb",
 			"settings":
 			{
-				"buffer_size": 666,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/_shim.html.erb",
-			"settings":
-			{
-				"buffer_size": 119,
-				"line_ending": "Unix",
-				"name": "<!--[if lt IE 9]>"
-			}
-		},
-		{
-			"file": "app/views/layouts/_header.html.erb",
-			"settings":
-			{
-				"buffer_size": 367,
-				"line_ending": "Unix",
-				"name": "<header class=\"navbar navbar-fixed-top navbar-inve"
-			}
-		},
-		{
-			"file": "app/views/layouts/_footer.html.erb",
-			"settings":
-			{
-				"buffer_size": 384,
-				"line_ending": "Unix",
-				"name": "<footer class=\"footer\">"
-			}
-		},
-		{
-			"file": "app/assets/stylesheets/custom.css.scss",
-			"settings":
-			{
-				"buffer_size": 1163,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "test/controllers/static_pages_controller_test.rb",
-			"settings":
-			{
-				"buffer_size": 700,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 1712,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/controllers/static_pages_controller.rb",
-			"settings":
-			{
-				"buffer_size": 131,
+				"buffer_size": 266,
 				"line_ending": "Unix"
 			}
 		}
@@ -155,14 +100,22 @@
 	},
 	"file_history":
 	[
-		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/test/integration/site_layout_test.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/test/test_helper.rb",
-		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/controllers/static_pages_controller.rb",
-		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/Gemfile",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/layouts/_footer.html.erb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/users/new.html.erb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/static_pages/home.html.erb",
-		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/helpers/application_helper.rb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/test/controllers/users_controller_test.rb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/config/routes.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/layouts/application.html.erb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/test/helpers/untitled",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/controllers/static_pages_controller.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/test/controllers/static_pages_controller_test.rb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/assets/stylesheets/custom.css.scss",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/layouts/_header.html.erb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/layouts/_shim.html.erb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/Gemfile",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/helpers/application_helper.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/config/initializers/backtrace_silencers.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/Guardfile",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/.gitignore",
@@ -172,7 +125,6 @@
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/helpers/static_pages_helper.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/static_pages/help.html.erb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/static_pages/contact.html.erb",
-		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/config/routes.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/static_pages/untitled",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/README.md",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/hello_app/config/routes.rb",
@@ -214,220 +166,23 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/layouts/application.html.erb",
+					"file": "test/helpers/application_helper_test.rb",
 					"settings":
 					{
-						"buffer_size": 666,
+						"buffer_size": 266,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								633,
-								633
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/views/layouts/_shim.html.erb",
-					"settings":
-					{
-						"buffer_size": 119,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								119,
-								119
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<!--[if lt IE 9]>",
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/layouts/_header.html.erb",
-					"settings":
-					{
-						"buffer_size": 367,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								367,
-								367
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<header class=\"navbar navbar-fixed-top navbar-inve",
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/layouts/_footer.html.erb",
-					"settings":
-					{
-						"buffer_size": 384,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								384,
-								384
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<footer class=\"footer\">",
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/assets/stylesheets/custom.css.scss",
-					"settings":
-					{
-						"buffer_size": 1163,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1163,
-								1163
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1106.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "test/controllers/static_pages_controller_test.rb",
-					"settings":
-					{
-						"buffer_size": 700,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								686,
-								686
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 50.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "config/routes.rb",
-					"settings":
-					{
-						"buffer_size": 1712,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								142,
-								142
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/controllers/static_pages_controller.rb",
-					"settings":
-					{
-						"buffer_size": 131,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								126,
-								126
+								219,
+								219
 							]
 						],
 						"settings":
@@ -499,6 +254,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 248.0,
+	"side_bar_width": 278.0,
 	"status_bar_visible": true
 }
