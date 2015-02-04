@@ -10,6 +10,7 @@
       <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js">
       </script>
     <![endif]-->
+<<<<<<< HEAD
   </head>
   <body>
     <header class="navbar navbar-fixed-top navbar-inverse">
@@ -29,3 +30,16 @@
     </div>
   </body>
 </html>
+=======
+
+    <%= render 'layouts/shim' %>
+  </head>
+  <body>
+    <%= render 'layouts/header' %>
+    <div class="container">
+      <%= yield %>
+          <%= render 'layouts/footer' %>
+    </div>
+  </body>
+</html>
+>>>>>>> 6684d83aa6b58140b326dd7e85057b26418b590e

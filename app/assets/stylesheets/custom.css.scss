@@ -54,8 +54,11 @@ p {
   line-height: 1.7em;
 }
 
+<<<<<<< HEAD
 /* header */
 
+=======
+>>>>>>> 6684d83aa6b58140b326dd7e85057b26418b590e
 #logo {
   float: left;
   margin-right: 10px;
@@ -70,4 +73,38 @@ p {
 #logo:hover {
   color: #fff;
   text-decoration: none;
+<<<<<<< HEAD
+=======
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+>>>>>>> 6684d83aa6b58140b326dd7e85057b26418b590e
 }
