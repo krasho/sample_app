@@ -39,39 +39,7 @@
 			"file": "app/views/static_pages/home.html.erb",
 			"settings":
 			{
-				"buffer_size": 387,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Gemfile",
-			"settings":
-			{
-				"buffer_size": 744,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/_header.html.erb",
-			"settings":
-			{
-				"buffer_size": 385,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app/views/layouts/_footer.html.erb",
-			"settings":
-			{
-				"buffer_size": 400,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "test/integration/site_layout_test.rb",
-			"settings":
-			{
-				"buffer_size": 393,
+				"buffer_size": 395,
 				"line_ending": "Unix"
 			}
 		}
@@ -120,6 +88,10 @@
 	},
 	"file_history":
 	[
+		"/Users/Krasho/Documents/Balisoft/sistemas/ror/sample_app/Gemfile",
+		"/Users/Krasho/Documents/Balisoft/sistemas/ror/sample_app/app/views/layouts/_header.html.erb",
+		"/Users/Krasho/Documents/Balisoft/sistemas/ror/sample_app/app/views/layouts/_footer.html.erb",
+		"/Users/Krasho/Documents/Balisoft/sistemas/ror/sample_app/test/integration/site_layout_test.rb",
 		"/Users/Krasho/Documents/Balisoft/sistemas/ror/sample_app/config/routes.rb",
 		"/Users/Krasho/Documents/Balisoft/sistemas/ror/sample_app/app/views/layouts/application.html.erb",
 		"/Users/Krasho/Documents/Balisoft/sistemas/ror/sample_app/app/assets/stylesheets/custom.css.scss",
@@ -171,6 +143,7 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -178,7 +151,7 @@
 					"file": "app/views/static_pages/home.html.erb",
 					"settings":
 					{
-						"buffer_size": 387,
+						"buffer_size": 395,
 						"regions":
 						{
 						},
@@ -192,114 +165,6 @@
 						"settings":
 						{
 							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Gemfile",
-					"settings":
-					{
-						"buffer_size": 744,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								104,
-								104
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/views/layouts/_header.html.erb",
-					"settings":
-					{
-						"buffer_size": 385,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								334,
-								334
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/views/layouts/_footer.html.erb",
-					"settings":
-					{
-						"buffer_size": 400,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								298,
-								298
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "test/integration/site_layout_test.rb",
-					"settings":
-					{
-						"buffer_size": 393,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								377,
-								377
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
