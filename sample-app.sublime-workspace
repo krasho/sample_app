@@ -4,11 +4,11 @@
 		"selected_items":
 		[
 			[
-				"ase",
-				"assert_select"
+				"ass",
+				"assert_not"
 			],
 			[
-				"ass",
+				"ase",
 				"assert_select"
 			],
 			[
@@ -48,10 +48,18 @@
 	"buffers":
 	[
 		{
-			"file": "test/helpers/application_helper_test.rb",
+			"file": "test/models/user_test.rb",
 			"settings":
 			{
-				"buffer_size": 266,
+				"buffer_size": 457,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/user.rb",
+			"settings":
+			{
+				"buffer_size": 105,
 				"line_ending": "Unix"
 			}
 		}
@@ -100,6 +108,8 @@
 	},
 	"file_history":
 	[
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/test/helpers/application_helper_test.rb",
+		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/.gitignore",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/test/integration/site_layout_test.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/test/test_helper.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/layouts/_footer.html.erb",
@@ -118,7 +128,6 @@
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/helpers/application_helper.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/config/initializers/backtrace_silencers.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/Guardfile",
-		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/.gitignore",
 		"/private/var/folders/sb/1dmxpxsx1yz0rhlpt58rj45c0000gn/T/fz3temp-1/header_inicial.inc",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/controllers/application_controller.rb",
 		"/Users/joseluis/Documents/Balisoft/sistemas/ror/workspace/sample_app/app/views/static_pages/about.html.erb",
@@ -166,23 +175,50 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "test/helpers/application_helper_test.rb",
+					"file": "test/models/user_test.rb",
 					"settings":
 					{
-						"buffer_size": 266,
+						"buffer_size": 457,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								219,
-								219
+								323,
+								333
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 1.0,
+						"translation.y": 35.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/models/user.rb",
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								68,
+								68
 							]
 						],
 						"settings":
